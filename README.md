@@ -6,14 +6,15 @@ ANE adds android-support-v4.jar (v23.1.1 - november 2015) to your apk
 
 3 files available :
 
--> AndroidSupportv4Lib_23_1.ane
+- AndroidSupportv4Lib_23_1.ane
 Adds the entire android-support-v4.jar. Adds near 4 Mb to your uncompressed App.
 
--> AndroidSupportv4Lib_23_1_slimApp.ane
-Adds only the "app" folder of android-support-v4.jar. Adds near 1 Mb to your uncompressed App.
+- AndroidSupportv4Lib_23_1_slimAppContent.ane
+Adds only the "app" and "content" folder of android-support-v4.jar. Adds near 1 Mb to your uncompressed App.
 
--> AndroidSupportv4Lib_23_1_slim_notification.ane
+- AndroidSupportv4Lib_23_1_slim_notification.ane
 Adds only the Notifications related classes of android-support-v4.jar. Adds near 0.3 Mb to your uncompressed App.
+(Used only when you only need to show local notifications)
 
 -----------------
 
